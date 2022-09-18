@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background: url(https://acl.jumia.com/bg-warehouse.3dcc05cd8d2adf902e5a.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+.hash {
+  color: #e2891d;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 90px 90px 50px 90px;
+  border-radius: 65% 5% 20% 5%;
+  width: 430px;
+  background-color: #fff;
+  border: solid 10px #fff;
+}
+
+.container2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 90px 90px 50px 90px;
+  border-radius: 25px;
+  width: 430px;
+  border: solid 10px #e2891d;
+  background-color: #e2891d;
+}
+
+.logo {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 6px 10px 6px 25px;
+  font-size: 11px;
+  display: inline-flex;
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+  box-shadow: 0.5px 0.5px 1.5px grey;
+  background-color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.last > p {
+  font-size: 10px;
+  margin-top: 190px;
+  color: grey;
+}
+
+.icon {
+  display: inline;
+  height: 14px;
+  padding-right: 12px;
+}
+
+.last {
+  border: ;
+}
