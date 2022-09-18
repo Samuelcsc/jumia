@@ -83,6 +83,26 @@ button {
   padding-right: 12px;
 }
 
-.last {
-  border: ;
+@media only screen and (max-width: 768px){
+  .container {
+   
+    transform: translate(-50%, -50%);
+    padding: 70px 70px 50px 70px;
+    border-radius: 65% 5% 20% 5%;
+    width: 320px;
+    background-color: #fff;
+    border: solid 10px #fff;
+  }
+  
+  .container2 {
+   
+    
+    transform: translate(-50%, -50%);
+    padding: 70px 70px 50px 70px;
+    border-radius: 25px;
+    width: 320px;
+    border: solid 10px #e2891d;
+    background-color: #e2891d;
+  }
+
 }
